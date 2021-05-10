@@ -1,0 +1,58 @@
+{
+	"Public Method": {
+		"prefix": "met",
+		"body": [
+			"public function $1($2)\r",
+			"{\r",
+			"    $3\r",
+			"}"
+		],
+		"description": "New Public Method"
+	},
+	"Protected Function": {
+		"prefix": "pmet",
+		"body": [
+			"protected function $1($2)\r",
+			"{\r",
+			"    $3\r",
+			"}"
+		],
+		"description": "New Protected Function"
+	},
+	"Protected Guarded": {
+		"prefix": "pguarded",
+		"body": [
+			"protected $$guarded = [];"
+		],
+		"description": "Creates a protected $guarded empty array"
+	},
+	"Public Function __construct": {
+		"prefix": "__met",
+		"body": [
+			"public function __construct($1)\r",
+			"{\r",
+			"    $2\r",
+			"}"
+		],
+		"description": "Create new public function __construct method"
+	},
+	"Public Static Method": {
+		"prefix": "smet",
+		"body": [
+			"public static function $1()\r",
+			"{\r",
+			"    $2\r",
+			"}"
+		],
+		"description": "Create new public static method"
+	},
+	"var_dump": {
+		"prefix": "_dump",
+		"body": [
+			"echo '<pre>';\r",
+			"var_dump($1);\r",
+			"echo '</pre>';"
+		],
+		"description": "Pre selected text view of var_dump function"
+	},
+}

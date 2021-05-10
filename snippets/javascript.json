@@ -1,0 +1,20 @@
+{
+	"met": {
+		"body": [
+			"$1()\r",
+			"{\r",
+			"    $2\r",
+			"}"
+		]
+	},
+	"New Method": {
+		"prefix": "met",
+		"body": [
+			"$1()\r",
+			"{\r",
+			"    $2\r",
+			"}"
+		],
+		"description": "Create new method"
+	}
+}

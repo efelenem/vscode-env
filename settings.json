@@ -1,0 +1,74 @@
+{
+    /**
+    * Silence The Noise
+    **/
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 155,
+    "editor.tabCompletion": "on",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.lineHeight": 25,
+    "editor.fontSize": 12.5,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Jetbrains Mono",
+    // "editor.snippetSuggestions": "top",
+    
+    "diffEditor.renderSideBySide": false,
+    "explorer.openEditors.visible": 0,
+    "files.autoSave": "off",
+    // "window.newWindowDimensions": "inherit",
+    "window.newWindowDimensions": "offset",
+    
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": false,
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    
+    /**
+    * Extensions 
+    **/ 
+    "blade.format.enable": true,
+    "workbench.iconTheme": "vscode-icons",
+    
+    "vim.useCtrlKeys": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    
+    /**
+    * Vue Settings here
+    **/
+    "emmet.includeLanguages": {
+        "vue": "html",
+        "javascript": "javascriptreact"
+    },
+    "vetur.validation.template": false,
+    
+    /**
+    * Color theme settings
+    **/
+    "workbench.colorCustomizations": {
+        "editor.background": "#1e1e1e",
+        "editorCursor.foreground": "#aeafad"
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    
+    /**
+    * Terminal Settings
+    **/
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontSize": 13,
+    
+}
