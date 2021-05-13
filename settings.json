@@ -21,8 +21,10 @@
     "diffEditor.renderSideBySide": false,
     "explorer.openEditors.visible": 0,
     "files.autoSave": "off",
+    "files.hotExit": "off",
     // "window.newWindowDimensions": "inherit",
     "window.newWindowDimensions": "offset",
+    "window.restoreWindows": "none",
     
     "workbench.activityBar.visible": false,
     "workbench.editor.showTabs": false,
@@ -68,7 +70,6 @@
     /**
     * Terminal Settings
     **/
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "terminal.integrated.fontSize": 13,
-    
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 13
 }
