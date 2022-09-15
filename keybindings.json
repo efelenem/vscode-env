@@ -8,7 +8,7 @@
         "command": "workbench.view.explorer"
     },
     {
-        "key": "ctrl+k ctrl+v",
+        "key": "ctrl+k ctrl+g",
         "command": "workbench.view.scm"
     },
     {
@@ -19,7 +19,7 @@
         "key": "ctrl+k ctrl+x",
         "command": "workbench.extensions.action.showInstalledExtensions"
     },
-    
+
     /**
     * File Explorer
     **/
@@ -43,6 +43,7 @@
         "command": "workbench.files.action.refreshFilesExplorer",
         "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     },
+
     /**
     * Terminal
     **/
@@ -50,8 +51,8 @@
         "key": "ctrl+t",
         "command": "workbench.action.terminal.toggleTerminal"
     },
-    
-    /**
+
+     /**
     * Line Manipulation
     **/
     {
@@ -65,23 +66,14 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+alt+down",
+        "key": "shift+alt+down",
         "command": "editor.action.insertCursorBelow",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+alt+up",
+        "key": "shift+alt+up",
         "command": "editor.action.insertCursorAbove",
         "when": "editorTextFocus"
-    },
-
-    /**
-    * Settings Unknown
-    **/
-    {
-        "key": "ctrl+d",
-        "command": "list.focusPageDown",
-        "when": "listFocus && !inputFocus"
     },
 
     /**
@@ -96,6 +88,15 @@
         "key": "ctrl+j",
         "command": "-extension.vim_ctrl+j",
         "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+    },
+
+    /**
+    * PHPUnit Keybindings
+    **/
+    {
+        "key": "ctrl+k ctrl+t",
+        "command": "phpunit.Test",
+        "when": "editorFocus"
     },
 
     /**
@@ -155,5 +156,10 @@
         "key": "ctrl+right",
         "command": "editor.action.insertCursorAtEndOfEachLineSelected",
         "when": "editorFocus && editorHasSelection"
-    },
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "-editor.action.copyLinesDownAction",
+		"when": "editorFocus"
+	}
 ]
