@@ -22,7 +22,7 @@
 	"Protected Guarded": {
 		"prefix": "pguarded",
 		"body": [
-			"protected $$guarded = [];"
+			"protected $guarded = [];"
 		],
 		"description": "Creates a protected $guarded empty array"
 	},
@@ -55,4 +55,37 @@
 		],
 		"description": "Pre selected text view of var_dump function"
 	},
+	"Private Method": {
+		"prefix": "vmet",
+		"body": [
+			"private function $1($2)",
+			"{\r",
+			"\t$3\r",
+			"}"
+		],
+		"description": "New Private Method"
+	},
+	"Test Function": {
+		"prefix": "@test",
+		"body": [
+			"/** @test */\r",
+			"function it_$1()\r",
+			"{\r",
+			"\t$2\r",
+			"}"
+		],
+		"description": "Create a test function."
+	},
+	"PHP Class": {
+		"prefix": "phpcl",
+		"body": [
+			"namespace $1;\r",
+			"\r",
+			"class $2\r",
+			"{\r",
+			"\t$3\r",
+			"}"
+		],
+		"description": "Create a PHP class."
+	}
 }
