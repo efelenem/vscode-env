@@ -1,109 +1,108 @@
 {
-    /**
+	/**
     * Better Defaults
     **/
 	"editor.bracketPairColorization.enabled": false,
-    "editor.copyWithSyntaxHighlighting": false,
-    "editor.emptySelectionClipboard": false,
-    "editor.detectIndentation": false,
-    "editor.cursorStyle": "line",
-    "editor.lineNumbers": "on",
-    "editor.tabCompletion": "on",
-    "editor.formatOnSave": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "explorer.openEditors.visible": 0,
-    "files.autoSave": "off",
-    "files.hotExit": "off",
-    "files.insertFinalNewline": true,
-    "workbench.editor.enablePreview": false,
-    "window.newWindowDimensions": "inherit",
-    // "window.newWindowDimensions": "offset",
-    "window.restoreWindows": "none",
-    "security.workspace.trust.untrustedFiles": "open",
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.emptySelectionClipboard": false,
+	"editor.detectIndentation": false,
+	"editor.cursorStyle": "line",
+	"editor.lineNumbers": "on",
+	"editor.tabCompletion": "on",
+	"editor.formatOnSave": false,
 	"editor.stickyScroll.enabled": true,
-    
-    /**
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"explorer.openEditors.visible": 0,
+	"files.autoSave": "off",
+	"files.hotExit": "off",
+	"files.insertFinalNewline": true,
+	"workbench.editor.enablePreview": false,
+	"window.newWindowDimensions": "inherit",
+	// "window.newWindowDimensions": "offset",
+	"window.restoreWindows": "none",
+	"security.workspace.trust.untrustedFiles": "open",
+	/**
     * Hide Everything
     **/
-    "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false,
-    "workbench.editor.showTabs": false,
-    "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": false,
-    
-    /**
+	"editor.minimap.enabled": false,
+	"workbench.editor.showTabs": false,
+	"workbench.sideBar.location": "right",
+	"workbench.statusBar.visible": false,
+	/**
     * Silence The Noise
     **/
-    "breadcrumbs.enabled": true,
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 200,
-    "editor.insertSpaces": false,
-    "editor.hover.above": false,
-    "editor.gotoLocation.multipleReferences": "goto",
-    "editor.gotoLocation.multipleDefinitions": "goto",
-    "editor.gotoLocation.multipleDeclarations": "goto",
-    "editor.gotoLocation.multipleImplementations": "goto",
-    "editor.gotoLocation.multipleTypeDefinitions": "goto",
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    
-    /**
+	"breadcrumbs.enabled": true,
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 200,
+	"editor.insertSpaces": false,
+	"editor.hover.above": false,
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	/**
     * Typography
     **/
-    "editor.fontFamily": "Jetbrains Mono",
-    "editor.fontSize": 11.5,
-    "editor.lineHeight": 2,
-    "editor.suggestFontSize": 12,
-    "editor.suggestLineHeight": 28,
-    "editor.fontLigatures": true,
-
-    /**
+	"editor.fontFamily": "Jetbrains Mono",
+	"editor.fontSize": 11.5,
+	"editor.lineHeight": 2,
+	"editor.suggestFontSize": 12,
+	"editor.suggestLineHeight": 28,
+	"editor.fontLigatures": true,
+	/**
     * Find
     **/
-    "search.useIgnoreFiles": false,
-    "search.exclude": {
-        // Hide everything in /vendor, except the "laravel" and "livewire" folder.
-        "**/vendor/{[^l],?[^ai]}*": true,
-        // Hide everything in /public, except "index.php"
-        "**/public/{[^i],?[^n]}*": true,
-        "**/node_modules": true,
-        "**/dist": true,
-        "**/_ide_helper.php": true,
-        "**/composer.lock": true,
-        "**/package-lock.json": true,
-        "storage": true,
-        ".phpunit.result.cache": true
-    },
-
-    /**
+	"search.useIgnoreFiles": false,
+	"search.exclude": {
+		// Hide everything in /vendor, except the "laravel" and "livewire" folder.
+		"**/vendor/{[^l],?[^ai]}*": true,
+		// Hide everything in /public, except "index.php"
+		"**/public/{[^i],?[^n]}*": true,
+		"**/node_modules": true,
+		"**/dist": true,
+		"**/_ide_helper.php": true,
+		"**/composer.lock": true,
+		"**/package-lock.json": true,
+		"storage": true,
+		".phpunit.result.cache": true
+	},
+	/**
     * Code
     **/
 	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
 	"emmet.includeLanguages": {
-	    "blade": "html",
-	    "vue-html": "html",
-	    "vue": "html",
-	    "spec.js": "html",
-	    "javascript": "javascriptreact"
+		"blade": "html",
+		"vue-html": "html",
+		"vue": "html",
+		"spec.js": "html",
+		"javascript": "javascriptreact"
 	},
 	"files.associations": {
-	    ".php_cs": "php",
-	    ".php_cs.dist": "php"
+		".php_cs": "php",
+		".php_cs.dist": "php"
 	},
-    
-    /**
+	/**
     * Extensions 
     **/
-    "blade.format.enable": true,
-    "vetur.validation.template": false,
-    "vim.useCtrlKeys": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j", "j"],
-            "after": ["<Esc>"]
-        }
-    ],
+	"blade.format.enable": true,
+	"vetur.validation.template": false,
+	"vim.useCtrlKeys": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"j",
+				"j"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
 	"vim.handleKeys": {
 		"<C-n>": false,
 		"<C-f>": false,
@@ -119,21 +118,20 @@
 		"<C-[>": false,
 		"<C-]>": false
 	},
-
-    /**
+	/**
     * Theme settings
     **/
-    "workbench.iconTheme": null,
-    "workbench.colorTheme": "Night Owl",
-    // "workbench.colorCustomizations": {
-    //     "editor.background": "#1e1e1e",
-    //     "editorCursor.foreground": "#aeafad"
-    // },
-    
-    /**
+	"workbench.iconTheme": null,
+	"workbench.colorTheme": "Night Owl",
+	// "workbench.colorCustomizations": {
+	//     "editor.background": "#1e1e1e",
+	//     "editorCursor.foreground": "#aeafad"
+	// },
+	/**
     * Terminal Settings
     **/
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"terminal.integrated.fontSize": 13,
+	"workbench.activityBar.visible": false,
 	"diffEditor.renderSideBySide": false
 }
