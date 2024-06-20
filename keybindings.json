@@ -19,6 +19,10 @@
         "key": "ctrl+k ctrl+x",
         "command": "workbench.view.extensions"
     },
+    {
+        "key": "ctrl+k ctrl+b",
+        "command": "workbench.action.closeSidebar"
+    },
 
     /**
     * File Explorer
@@ -50,6 +54,10 @@
     {
         "key": "ctrl+t",
         "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+k ctrl+y",
+        "command": "workbench.output.action.clearOutput"
     },
 
      /**
@@ -96,6 +104,15 @@
     {
         "key": "ctrl+k ctrl+t",
         "command": "phpunit.Test",
+        "when": "editorFocus"
+    },
+
+    /**
+    * Code Runner Keybindings
+    **/
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "code-runner.run",
         "when": "editorFocus"
     },
 

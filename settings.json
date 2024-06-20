@@ -22,20 +22,23 @@
 	// "window.newWindowDimensions": "offset",
 	"window.restoreWindows": "none",
 	"security.workspace.trust.untrustedFiles": "open",
+	"editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
 	/**
     * Hide Everything
     **/
 	"editor.minimap.enabled": false,
-	"workbench.editor.showTabs": false,
+	"workbench.editor.showTabs": "single",
 	"workbench.sideBar.location": "right",
 	"workbench.statusBar.visible": false,
 	/**
     * Silence The Noise
     **/
 	"breadcrumbs.enabled": true,
-	"editor.wordWrap": "on",
+	"editor.wordWrap": "wordWrapColumn",
 	"editor.wordWrapColumn": 200,
-	"editor.insertSpaces": false,
+	"editor.insertSpaces": true,
 	"editor.hover.above": false,
 	"editor.gotoLocation.multipleReferences": "goto",
 	"editor.gotoLocation.multipleDefinitions": "goto",
@@ -49,7 +52,7 @@
     * Typography
     **/
 	"editor.fontFamily": "Jetbrains Mono",
-	"editor.fontSize": 11.5,
+	"editor.fontSize": 12,
 	"editor.lineHeight": 2,
 	"editor.suggestFontSize": 12,
 	"editor.suggestLineHeight": 28,
@@ -83,13 +86,20 @@
 		"javascript": "javascriptreact"
 	},
 	"files.associations": {
-		".php_cs": "php",
-		".php_cs.dist": "php"
-	},
+        ".php_cs": "php",
+        ".php_cs.dist": "php",
+        ".env*": "dotenv",
+        "*.css": "tailwindcss"
+    },
+	"dotenv.enableAutocloaking": false,
 	/**
     * Extensions 
     **/
 	"blade.format.enable": true,
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "php"
+	},
 	"vetur.validation.template": false,
 	"vim.useCtrlKeys": true,
 	"vim.insertModeKeyBindings": [
@@ -121,8 +131,8 @@
 	/**
     * Theme settings
     **/
-	"workbench.iconTheme": null,
 	"workbench.colorTheme": "Night Owl",
+	"workbench.iconTheme": null,
 	// "workbench.colorCustomizations": {
 	//     "editor.background": "#1e1e1e",
 	//     "editorCursor.foreground": "#aeafad"
@@ -132,6 +142,6 @@
     **/
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"terminal.integrated.fontSize": 13,
-	"workbench.activityBar.visible": false,
-	"diffEditor.renderSideBySide": false
+    "workbench.activityBar.location": "hidden",
+    "diffEditor.renderSideBySide": false,
 }
